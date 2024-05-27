@@ -1,11 +1,11 @@
 {
-    "name": "pilabrem/laravel-permission-ui",
+    "name": "manuez/laravel-permission-ui",
     "description": "Laravel permission management UI for spatie/laravel-permission",
     "license": "MIT",
     "authors": [
         {
-            "name": "pilabrem",
-            "email": "pilabrem@gmail.com"
+            "name": "manuez",
+            "email": "manuez@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pilabrem\\LaravelPermissionUI\\": "src/"
+            "Manuez\\LaravelPermissionUI\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pilabrem\\LaravelPermissionUI\\LaravelPermissionUiServiceProvider"
+                "Manuez\\LaravelPermissionUI\\LaravelPermissionUiServiceProvider"
             ]
         }
     }
